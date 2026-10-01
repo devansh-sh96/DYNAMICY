@@ -62,6 +62,7 @@ Do not commit `.env` or share your API key.
 - Click the center display to cycle between the equalizer, system gauges, focus, and media views.
 - Hold the mascot to tuck the island away; move back over the top restore area to reveal it.
 - Use the Settings button in the panel heading to configure the AI key.
+- Icy is pretty cool btw like me ;)
 
 ## Panel Tools
 
