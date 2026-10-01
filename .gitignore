@@ -1,0 +1,11 @@
+node_modules/
+out/
+.tmp-*
+.scratch/
+.tmp-ui/
+.env
+.env.*
+!.env.example
+*.log
+*.pid
+electron-*.tgz

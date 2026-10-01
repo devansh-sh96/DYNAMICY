@@ -1,0 +1,47 @@
+{
+  "name": "icy-bear",
+  "version": "0.1.0",
+  "description": "Icy Bear — Desktop Companion & Productivity Suite",
+  "main": "./out/main/index.js",
+  "author": "",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "electron-vite dev",
+    "build": "electron-vite build",
+    "rebuild": "electron-rebuild -f -w better-sqlite3",
+    "preview": "electron-vite preview"
+  },
+  "dependencies": {
+    "@leeoniya/ufuzzy": "^1.0.14",
+    "better-sqlite3": "^13.0.3",
+    "electron-store": "^8.2.0",
+    "fdir": "^6.4.3",
+    "framer-motion": "^11.11.17",
+    "howler": "^2.2.4",
+    "lucide-react": "^0.460.0",
+    "pidusage": "^3.0.2",
+    "recharts": "^2.12.0",
+    "systeminformation": "^5.30.6",
+    "tree-kill": "^1.2.2",
+    "zustand": "^4.5.5"
+  },
+  "devDependencies": {
+    "@electron/rebuild": "^4.2.0",
+    "@types/better-sqlite3": "^7.6.11",
+    "@types/howler": "^2.2.12",
+    "@types/node": "^22.10.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "electron": "^44.4.5",
+    "electron-vite": "^5.0.0",
+    "postcss": "^8.4.49",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwindcss": "^3.4.15",
+    "typescript": "^5.7.2",
+    "vite": "^7.3.6"
+  }
+}
